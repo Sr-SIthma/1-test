@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SR Store — Sign In</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background"></div>
+  <div class="overlay"></div>
+
+  <div class="signin-container">
+    <form id="signin-form">
+      <h2>Welcome Back 👋</h2>
+      <p class="subtitle">Sign in to continue to SR Store</p>
+
+      <input type="email" id="email" name="email" placeholder="Email" required />
+      <input type="password" id="password" name="password" placeholder="Password" required />
+      <button type="submit">Sign In</button>
+      <p id="error-message"></p>
+
+      <div class="divider"><span>or</span></div>
+
+      <div class="social-signin">
+        <button id="facebook-signin">Facebook</button>
+        <button id="google-signin">Google</button>
+      </div>
+
+      <p class="signup-link">Don't have an account? <a href="#">Sign up</a></p>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
